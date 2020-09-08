@@ -44,13 +44,13 @@ header .content div:first-child {
   margin: 20px 0 15px;
 }
 
-h1 {
+header h1 {
   margin: 0;
   font-size: 40px;
   line-height: 35px;
 }
 
-button {
+header button {
   height: 28px;
   margin-left: 10px;
   border: none;
@@ -68,5 +68,23 @@ nav {
 
 nav img{
   width: 13px;
+}
+
+main h1{
+  font-size: 30px;
+}
+
+.cards{
+  display: flex;
+  margin-top: 40px;
+}
+
+section {
+  background-color: white;
+  flex:1;
+}
+
+section:first-child{
+  margin-right: 20px;
 }
 
