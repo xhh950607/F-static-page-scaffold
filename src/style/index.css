@@ -82,9 +82,24 @@ main h1{
 section {
   background-color: white;
   flex:1;
+  text-align: center;
 }
 
 section:first-child{
   margin-right: 20px;
+}
+
+figcaption {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+figure p {
+  color: gray;
+}
+
+figure button{
+  margin-top: 30px;
 }
 
