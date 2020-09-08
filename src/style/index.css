@@ -76,17 +76,14 @@ main h1{
 
 .cards{
   display: flex;
+  justify-content: space-between;
   margin-top: 40px;
 }
 
 section {
   background-color: white;
-  flex:1;
+  width: 49%;
   text-align: center;
-}
-
-section:first-child{
-  margin-right: 20px;
 }
 
 figcaption {
